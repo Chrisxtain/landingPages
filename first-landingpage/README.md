@@ -1,70 +1,66 @@
-# Getting Started with Create React App
+# Landing Page One – MyBrand
 
-This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
+A clean, responsive landing page built with **React** and **plain CSS**, designed to serve as a modern, single-page promotional website. Built as part of a multi-landing-pages portfolio project.
 
-## Available Scripts
+---
 
-In the project directory, you can run:
+## 🚀 Features
 
-### `npm start`
+- 💡 Hero section with call-to-action
+- ✅ Responsive layout with media queries
+- 💬 Testimonials section with quotes
+- 💰 Pricing tiers with clean cards
+- 🎨 Simple, professional design with custom CSS
+- 🔍 Typography with `clamp()` scaling
+- 🖼️ Responsive hero image with hover zoom effect
 
-Runs the app in the development mode.\
-Open [http://localhost:3000](http://localhost:3000) to view it in your browser.
+---
 
-The page will reload when you make changes.\
-You may also see any lint errors in the console.
+## 📁 Project Structure
 
-### `npm test`
+landing-one/ ├── public/ │ └── index.html ├── src/ │ ├── App.js │ ├── App.css │ └── index.js
 
-Launches the test runner in the interactive watch mode.\
-See the section about [running tests](https://facebook.github.io/create-react-app/docs/running-tests) for more information.
+---
 
-### `npm run build`
+## 🛠️ Setup & Installation
 
-Builds the app for production to the `build` folder.\
-It correctly bundles React in production mode and optimizes the build for the best performance.
+1. **Clone the repo:**
 
-The build is minified and the filenames include the hashes.\
-Your app is ready to be deployed!
+# bash
 
-See the section about [deployment](https://facebook.github.io/create-react-app/docs/deployment) for more information.
+git clone https://github.com/chrisxtain/landing-pages.git
 
-### `npm run eject`
+## cd landing-pages/landing-one
 
-**Note: this is a one-way operation. Once you `eject`, you can't go back!**
+# install dependencies
 
-If you aren't satisfied with the build tool and configuration choices, you can `eject` at any time. This command will remove the single build dependency from your project.
+npm install
 
-Instead, it will copy all the configuration files and the transitive dependencies (webpack, Babel, ESLint, etc) right into your project so you have full control over them. All of the commands except `eject` will still work, but they will point to the copied scripts so you can tweak them. At this point you're on your own.
+# Start the development server
 
-You don't have to ever use `eject`. The curated feature set is suitable for small and middle deployments, and you shouldn't feel obligated to use this feature. However we understand that this tool wouldn't be useful if you couldn't customize it when you are ready for it.
+npm start or npm run party (wink)
 
-## Learn More
+### 📱 Mobile Responsiveness
 
-You can learn more in the [Create React App documentation](https://facebook.github.io/create-react-app/docs/getting-started).
+-Uses CSS Flexbox & media queries (max-width: 768px)
+-Hero image stacks under text
+-Navigation bar collapses into column
+-Features, testimonials, and pricing stack vertically
 
-To learn React, check out the [React documentation](https://reactjs.org/).
+# 🎯 Built With
 
-### Code Splitting
+-React
+-Plain CSS (custom)
+-HTML5 + JSX
 
-This section has moved here: [https://facebook.github.io/create-react-app/docs/code-splitting](https://facebook.github.io/create-react-app/docs/code-splitting)
+## 📌 Future Improvements
 
-### Analyzing the Bundle Size
+-Add scroll animations
+-Connect form to backend (optional)
+-Swap placeholder images for real brand visuals
+-Enable dark mode toggle
 
-This section has moved here: [https://facebook.github.io/create-react-app/docs/analyzing-the-bundle-size](https://facebook.github.io/create-react-app/docs/analyzing-the-bundle-size)
+### 🙌 Author
 
-### Making a Progressive Web App
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/making-a-progressive-web-app](https://facebook.github.io/create-react-app/docs/making-a-progressive-web-app)
-
-### Advanced Configuration
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/advanced-configuration](https://facebook.github.io/create-react-app/docs/advanced-configuration)
-
-### Deployment
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/deployment](https://facebook.github.io/create-react-app/docs/deployment)
-
-### `npm run build` fails to minify
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/troubleshooting#npm-run-build-fails-to-minify](https://facebook.github.io/create-react-app/docs/troubleshooting#npm-run-build-fails-to-minify)
+-Tochukwu Christian – Frontend Developer
+-Follow on GitHub: @Chrisxtain
