@@ -1,38 +1,230 @@
-.App {
+/* landing-one/src/App.css */
+
+/* ===== Base styles for overall app ===== */
+body {
+  margin: 0;
+  font-family: 'Segoe UI', sans-serif; /* Clean modern font */
+  background-color: #f9f9f9; /* Light grey background */
+  color: #333; /* Dark text for readability */
+}
+
+/* ===== Header section: logo and navigation bar ===== */
+.header {
+  display: flex;
+  justify-content: space-between;
+  padding: 1rem 2rem;
+  background-color: #fff;
+  box-shadow: 0 2px 4px rgba(0,0,0,0.1); /* Soft shadow under header */
+}
+
+.logo {
+  font-weight: bold;
+  font-size: 1.5rem;
+}
+
+.nav a {
+  margin-left: 1rem;
+  text-decoration: none;
+  color: #333;
+  font-weight: 500;
+}
+
+/* ===== Hero section: introductory message with CTA and image ===== */
+.hero {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  padding: 3rem 2rem;
+  background: #bbd1f1; /* Light blue background */
+}
+
+.hero-text {
+  max-width: 50%;
+}
+
+.hero-text h1 {
+  font-size: clamp(1.8rem, 5vw, 2.5rem); /* Scales with screen width */
+  margin-bottom: 1rem;
+}
+
+.hero-text p {
+  font-size: clamp(1rem, 3vw, 1.2rem); /* Grows slightly on wider screens */
+  margin-bottom: 1.5rem;
+}
+
+.hero-text button {
+  padding: 0.75rem 1.5rem;
+  font-size: 1rem;
+  background-color: #0066ff;
+  color: white;
+  border: none;
+  border-radius: 4px;
+  cursor: pointer;
+}
+
+.hero-img img {
+  max-width: 100%;
+  border-radius: 10px;
+  transition: transform 0.3s ease, box-shadow 0.3s ease;
+}
+
+.hero-img img:hover {
+  transform: scale(1.05); /* Slight zoom */
+  box-shadow: 0 8px 20px rgba(0, 0, 0, 0.2); /* Soft depth */
+}
+
+
+/* ===== Features section: list of app features ===== */
+.features {
+  padding: 4rem 2rem;
+  text-align: center;
+  background-color: #fff;
+}
+
+.feature-list {
+  display: flex;
+  justify-content: space-around;
+  margin-top: 2rem;
+}
+
+.feature {
+  max-width: 250px;
+}
+
+.feature h3 {
+  margin-bottom: 0.5rem;
+  color: #0066ff;
+}
+
+/* ===== Testimonials section: user reviews ===== */
+.testimonials {
+  background-color: #a0c8f0;
+  padding: 4rem 2rem;
   text-align: center;
 }
 
-.App-logo {
-  height: 40vmin;
-  pointer-events: none;
-}
-
-@media (prefers-reduced-motion: no-preference) {
-  .App-logo {
-    animation: App-logo-spin infinite 20s linear;
-  }
-}
-
-.App-header {
-  background-color: #282c34;
-  min-height: 100vh;
+.testimonial-list {
   display: flex;
-  flex-direction: column;
-  align-items: center;
   justify-content: center;
-  font-size: calc(10px + 2vmin);
-  color: white;
+  gap: 2rem;
+  margin-top: 2rem;
 }
 
-.App-link {
-  color: #61dafb;
+.testimonial {
+  max-width: 300px;
+  background: white;
+  padding: 1.5rem;
+  border-radius: 8px;
+  box-shadow: 0 4px 8px rgba(0,0,0,0.05);
+  font-style: italic;
 }
 
-@keyframes App-logo-spin {
-  from {
-    transform: rotate(0deg);
+.testimonial span {
+  display: block;
+  margin-top: 1rem;
+  font-weight: bold;
+}
+
+/* ===== Pricing section: plan tiers ===== */
+.pricing {
+  padding: 4rem 2rem;
+  background: #ffffff;
+  text-align: center;
+}
+
+.pricing-tiers {
+  display: flex;
+  justify-content: center;
+  gap: 2rem;
+  margin-top: 2rem;
+}
+
+.tier {
+  background: #cddcec;
+  padding: 2rem;
+  border-radius: 8px;
+  width: 250px;
+  box-shadow: 0 2px 6px rgba(0,0,0,0.05);
+}
+
+.tier-featured {
+  border: 2px solid #0066ff; /* Highlight for popular tier */
+  background-color: #eaf1ff;
+}
+
+.tier h3 {
+  margin-bottom: 0.5rem;
+  color: #0066ff;
+}
+
+.tier ul {
+  list-style: none;
+  padding: 0;
+  margin-top: 1rem;
+}
+
+.tier ul li {
+  margin-bottom: 0.5rem;
+}
+
+/* ===== Footer section: copyright or legal info ===== */
+.footer {
+  text-align: center;
+  padding: 2rem;
+  background: #7cabda;
+  margin-top: 3rem;
+  font-size: 0.9rem;
+}
+@media (max-width: 768px) {
+  .header {
+    flex-direction: column;
+    align-items: center;
+    text-align: center;
   }
-  to {
-    transform: rotate(360deg);
+
+  .nav a {
+    margin: 0.5rem;
+  }
+
+  .hero {
+    flex-direction: column-reverse;
+    text-align: center;
+  }
+
+  .hero-text {
+    max-width: 100%;
+  }
+
+  .feature-list {
+    flex-direction: column;
+    align-items: center;
+  }
+
+  .feature {
+    margin-bottom: 2rem;
+  }
+
+  .testimonial-list {
+    flex-direction: column;
+    align-items: center;
+  }
+
+  .pricing-tiers {
+    flex-direction: column;
+    align-items: center;
+  }
+
+  .tier {
+    width: 90%;
+    max-width: 300px;
+    margin-bottom: 2rem;
+  }
+
+  .hero-text h1 {
+    font-size: 2rem;
+  }
+
+  .hero-text p {
+    font-size: 1rem;
   }
 }
