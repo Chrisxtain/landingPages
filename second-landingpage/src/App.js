@@ -60,7 +60,7 @@ function App() {
             muted
             playsInline
           >
-          <source src="/videos/hero.mp4" type="video/mp4" />
+          <source src={`${process.env.PUBLIC_URL}/videos/hero.mp4`} type="video/mp4" />
               Your browser does not support the video tag.
           </video>
 
@@ -397,6 +397,9 @@ function App() {
   {/* Bottom Bar */}
         <div className="mt-10 text-center text-xs text-gray-500">
         &copy; 2025 MyBrand. All rights reserved.
+        </div>
+        <div className="mt-10 text-center text-xs text-gray-500">
+        &trade; Chrisxtain.
         </div>
       </footer>
 
