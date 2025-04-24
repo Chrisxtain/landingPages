@@ -28,13 +28,9 @@ A modern, responsive, and visually stunning **React landing page** built with **
 | **HTML5 / JSX** | Structure                    |
 | **CSS3**        | Custom styles where needed   |
 
----
-
 ## 📂 Project Structure
 
 landing-page/ ├── public/ │ └── videos/hero.mp4 # Background video ├── src/ │ ├── App.js # Main app │ ├── index.css # Tailwind & custom styles │ └── components/ # (Optional future refactor) ├── tailwind.config.js ├── package.json └── README.md
-
----
 
 ## 🛠️ Setup & Installation
 
@@ -49,37 +45,24 @@ landing-page/ ├── public/ │ └── videos/hero.mp4 # Background video
 
 -npm start
 
----
-
 ## 🧪 Deployment
 
 You can deploy this project using:
 
--Netlify
--Vercel
--GitHub Pages (for static hosting)
+-**Netlify** -**Vercel** -**GitHub Pages (for static hosting)**
 
-Just build with:
--npm run build
-
----
+Just build with: -**npm run build**
 
 ## ✨ Credits & Assets
 
--TailwindCSS
--AOS
--Unsplash (for images)
--RandomUser.me (for avatars)
--Popsy Illustrations
-
----
+-**TailwindCSS** -**AOS** -**Unsplash (for images)** -**RandomUser.me (for avatars)** -**Popsy Illustrations**
 
 ### 🧠 Learning Goals
 
 This project helped build skills in:
 
--Responsive layout with Tailwind
--Scroll animation integration (AOS)
--Structuring semantic HTML in React
--Building stylish UIs with modern CSS (glassmorphism, gradients, etc.)
--Reusable, clean, and readable React components
+1 **Responsive layout with Tailwind**
+2 **Scroll animation integration (AOS)**
+3 **Structuring semantic HTML in React**
+4 **Building stylish UIs with modern CSS (glassmorphism, gradients, etc.)**
+5 **Reusable, clean, and readable React components**
