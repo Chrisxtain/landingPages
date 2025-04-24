@@ -40,18 +40,14 @@ landing-page/ ├── public/ │ └── videos/hero.mp4 # Background video
 
 1. **Clone the Repo**
 
-```bash
-git clone https://github.com/chrisxtain/your-repo.git
+-git clone https://github.com/chrisxtain/your-repo.git
+-cd landing-page
+-Install Dependencies
+-npm install
 
-cd landing-page
+# Run Dev Server
 
-Install Dependencies
-
-npm install
-
-Run Dev Server
-
-npm start
+-npm start
 
 ---
 
@@ -59,28 +55,22 @@ npm start
 
 You can deploy this project using:
 
-Netlify
-
-Vercel
-
-GitHub Pages (for static hosting)
+-Netlify
+-Vercel
+-GitHub Pages (for static hosting)
 
 Just build with:
-npm run build
+-npm run build
 
 ---
 
 ## ✨ Credits & Assets
 
-TailwindCSS
-
-AOS
-
-Unsplash (for images)
-
-RandomUser.me (for avatars)
-
-Popsy Illustrations
+-TailwindCSS
+-AOS
+-Unsplash (for images)
+-RandomUser.me (for avatars)
+-Popsy Illustrations
 
 ---
 
@@ -88,13 +78,8 @@ Popsy Illustrations
 
 This project helped build skills in:
 
-Responsive layout with Tailwind
-
-Scroll animation integration (AOS)
-
-Structuring semantic HTML in React
-
-Building stylish UIs with modern CSS (glassmorphism, gradients, etc.)
-
-Reusable, clean, and readable React components
-```
+-Responsive layout with Tailwind
+-Scroll animation integration (AOS)
+-Structuring semantic HTML in React
+-Building stylish UIs with modern CSS (glassmorphism, gradients, etc.)
+-Reusable, clean, and readable React components
