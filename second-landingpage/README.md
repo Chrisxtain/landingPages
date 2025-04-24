@@ -53,7 +53,9 @@ Run Dev Server
 
 npm start
 
-🧪 Deployment
+---
+
+## 🧪 Deployment
 You can deploy this project using:
 
 Netlify
@@ -76,7 +78,9 @@ RandomUser.me (for avatars)
 
 Popsy Illustrations
 
-🧠 Learning Goals
+---
+
+### 🧠 Learning Goals
 This project helped build skills in:
 
 Responsive layout with Tailwind
