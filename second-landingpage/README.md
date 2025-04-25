@@ -4,6 +4,10 @@ A modern, responsive, and visually stunning **React landing page** built with **
 
 ---
 
+## 📸 Preview
+
+[https://chrisxtain.github.io/landingPages/]
+
 ## 🧩 Features
 
 - 🎨 **Full-screen Hero Section** with video background, blur layers & animated content
